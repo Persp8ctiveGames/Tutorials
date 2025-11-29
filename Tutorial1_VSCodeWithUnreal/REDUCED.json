@@ -1,0 +1,45 @@
+
+
+
+CONCRETE EXAMPLE
+{
+	...
+	"settings": {
+		...
+		"editor.formatOnSave": true,
+		"C_Cpp.intelliSenseEngine": "default",
+		"C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 200 , IndentWidth: 4, UseTab: Never}",
+		"emeraldwalk.runonsave": {
+			"commands": [
+				{
+					// Run whenever any file is saved
+					"match": ".*\\.(cpp|h)$",
+					"cmd": "E:/epic/UE_5.7/UE_5.7/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -projectfiles -project=\"E:/Unreal Projects/VSTutoRetry/VSTutoRetryProj/VSTutoRetryProj.uproject\" -game -rocket -progress"
+				}
+			]
+		}
+	},
+	...
+}
+
+GENERAL EXAMPLE
+
+{
+	...
+	"settings": {
+		...
+		"editor.formatOnSave": true,
+		"C_Cpp.intelliSenseEngine": "default",
+		"C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 200 , IndentWidth: 4, UseTab: Never}",
+		"emeraldwalk.runonsave": {
+			"commands": [
+				{
+					// Run whenever any file is saved
+					"match": ".*\\.(cpp|h)$",
+					"cmd": "<YOUR_UBT_PATH>/UnrealBuildTool.exe -projectfiles -project=\"<YOUR_UPROJECT_PATH>.uproject\" -game -rocket -progress"
+				}
+			]
+		}
+	},
+	...
+}
