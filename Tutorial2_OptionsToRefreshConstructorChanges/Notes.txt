@@ -1,0 +1,9 @@
+
+
+Demystifying Live Coding, Reload, Hot Reload.
+1 - Show the class in content browser and editor.
+2 - Show the live coding, play working updates
+3 - Show the issues from changing constructor code.
+4 - Show the on construction approach.
+5 - Show the issue on adding a new function.
+5 - Show the blueprint approach with reload
