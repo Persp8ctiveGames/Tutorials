@@ -37,6 +37,6 @@ class VSINTELLI_API AMyActor : public AActor {
     UFUNCTION()
     void PrintDebugMessage();
 
-    UFUNCTION()
-    void PrintDebugMessage2();
+    // UFUNCTION()
+    // void PrintDebugMessage2();
 };

@@ -65,7 +65,7 @@ void AMyActor::BeginPlay() {
     // }
 
     // Set timer to print HelloWorld every 5 seconds
-    GetWorldTimerManager().SetTimer(DebugMessageTimerHandle, this, &AMyActor::PrintDebugMessage2, 1.0f, true);
+    GetWorldTimerManager().SetTimer(DebugMessageTimerHandle, this, &AMyActor::PrintDebugMessage, 1.0f, true);
 }
 
 void AMyActor::PrintDebugMessage() {
